@@ -15,7 +15,7 @@ class UiProfile extends StatelessWidget {
         const Padding(
           padding: EdgeInsets.all(20),
           child: Image(
-            image: AssetImage('assets/images/taylor.jpg'),
+            image: NetworkImage('https://scontent.fbkk10-1.fna.fbcdn.net/v/t39.30808-6/312383987_1621515094918246_3059053357038120220_n.jpg?_nc_cat=102&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHlyXZ1iHOd4jg1pFEq__dEV1owidFqU1JXWjCJ0WpTUk9vXucCNHXsSSlHWlHSKZwc7iyXR1nEbTxxHG33BZEc&_nc_ohc=LL59YpQSLQAAX87l3Nr&_nc_ht=scontent.fbkk10-1.fna&oh=00_AfCttwEGJUCRBl0dO7P3-GncIn4OWxQqJKkNmTdkkIktIw&oe=64C90DC3'),
             width: 300,
             height: 400,
           ),
@@ -23,9 +23,9 @@ class UiProfile extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(bottom: 20, left: 20),
           child: Text(
-            "Taylor oslen",
+            "Eakkawee Puangbuppha",
             style: GoogleFonts.kanit(
-              textStyle: TextStyle(fontSize: 40)
+              textStyle: TextStyle(fontSize: 30)
             ),
           ),
         ),
@@ -39,7 +39,7 @@ class UiProfile extends StatelessWidget {
                 size: 40,
               ),
               Text(
-            "Taylor.o@hotmail.com",
+            "eakkawee.pu@gmail.com",
             style: GoogleFonts.kanit(
               textStyle: TextStyle(fontSize: 20)
             ),
